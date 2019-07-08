@@ -6,3 +6,10 @@ These attacks were not invented by me but only implemented in python. For more i
 
 
 # Workings:
+attack.py [-h] -i [IFACE] -b [BSSID] -m [MAC] -t [TIME] [-r [INTERVAL]]
+{ssidSpawner,discoverAPs,deauth,channelswitch,quiet,quietaction,associationRequestAttack}
+
+# Requirements:
+scapy==2.4.2
+termcolor==1.1.0
+prettytable==0.7.2
