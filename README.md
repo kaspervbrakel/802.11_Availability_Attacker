@@ -13,3 +13,7 @@ attack.py [-h] -i [IFACE] -b [BSSID] -m [MAC] -t [TIME] [-r [INTERVAL]]
 scapy==2.4.2
 termcolor==1.1.0
 prettytable==0.7.2
+
+
+# For creating this code examples / snippets and ideas were used from the book: Python Penetration Testing from Oreilly.
+The book can be found at: https://learning.oreilly.com/library/view/python-penetration-testing/9781784399771/
